@@ -214,6 +214,7 @@ nav ul a span {
 @media (max-width: 576px) {
   .formControls {
     margin-left: 0;
+    margin-top: 3vh;
   }
 }
 
@@ -349,8 +350,8 @@ nav ul a span {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 48px auto 0 auto;
     padding: 48px 31px;
+    justify-content: space-evenly;
   }
 }
 

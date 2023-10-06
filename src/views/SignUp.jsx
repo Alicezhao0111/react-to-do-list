@@ -49,8 +49,8 @@ function SignUp() {
         try{
         const res = await axios.post(`${VITE_APP_HOST}/users/sign_up`, formData);
             Swal.fire(
-                'Good job!',
-                'You clicked the button!',
+                '註冊成功',
+                'Login right now to get things done!',
                 'success'
               );
             console.log("回應", res);

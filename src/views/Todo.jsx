@@ -53,7 +53,7 @@ function Todo() {
     try {
       const res = await axios.post(`${VITE_APP_HOST}/users/sign_out`);
       console.log("登出", res);
-      Swal.fire("已登出");
+      Swal.fire("已成功登出");
       navigate("/");
     } catch (err) {
       console.log("登出錯誤", err);
@@ -74,7 +74,7 @@ function Todo() {
 
   useEffect(() => {
     getTodo();
-  }, []); //渲染一次就好，不然直接戳爆
+  }, []); //渲染一次就好
 
   async function addItems() {
     if (!addTodo) return;
