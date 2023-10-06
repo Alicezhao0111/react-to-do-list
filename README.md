@@ -36,6 +36,16 @@ Experience the **Online To-Do List** in action! Check out the live demo hosted o
    ![To-Do items](./public/screenshot04.png)
    ![To-Do filter](./public/screenshot05.png)
 
+---
+
+### 🔧 Built With
+
+- **React**
+- **Vite**
+- **Bootstrap**
+
+---
+
 ### Why This Project?
 
 This application is a testament to my capabilities as a front-end developer. Not only does it showcase my skills in React and front-end development, but it also demonstrates my understanding of integrating with backend services via APIs.
