@@ -25,6 +25,14 @@ function SignUp() {
     const navigate = useNavigate();
 
     async function handleSign(){
+      if (!email || !nickname ||!password){
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: '請完整輸入您的資料',
+        })
+        return;
+      }
         if(password !== confirmPassword){
             
                 Swal.fire({
@@ -125,7 +133,7 @@ function SignUp() {
               <button
                 className="formControls_btnSubmit"
                 type="button"
-                onClick={()=>{handleSign()}}
+                onClick={handleSign}
                 value="註冊帳號">
                     註冊
               </button>

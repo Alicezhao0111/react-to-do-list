@@ -66,7 +66,7 @@ function Login() {
           </div>
           <div>
             <form className="formControls" action="index.html">
-              <h2 className="formControls_txt">最實用的線上待辦事項服務</h2>
+              <h2 className="formControls_txt">Do it now. You'll thank yourself later</h2>
               <label className="formControls_label" htmlFor="email">
                 Email
               </label>
